@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+html,
+body,
+#wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.ng-scope {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 1;
+}
+html {
+  font-size: 100px;
+}
+#header {
+  height: 3rem;
+  width: 100%;
+  background: #ee6900;
+  position: relative;
+}
+#header .title {
+  position: absolute;
+  left: 0.44rem;
+  right: 0.44rem;
+  top: -1rem;
+  color: #fff;
+  font-size: 0.16rem;
+  text-align: center;
+  font-weight: normal;
+}
+#header .le {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+#header .ri {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+#footer {
+  width: 100%;
+  background: #ee6900;
+  position: fixed;
+  bottom: 0;
+  height: 3rem;
+  left: 0;
+  font-size: 16px;
+  tect-align: center;
+}
+#footer ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+}
+#footer ul li {
+  -webkit-box-flex: 1;
+  width: 0;
+  height: 100%;
+  font-size: 0.12rem;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  -webkit-box-orient: vertical;
+}
+#footer ul li span {
+  display: block;
+}
+#footer ul li i {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+#footer ul li.on {
+  background: #f00;
+}
+/*第一页*/
+.page1 {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.row {
+  width: 100%;
+  height: 130px;
+  display: -webkit-box;
+}
+.row a {
+  width: 25%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: center;
+}
+.row a img {
+  width: 100%;
+  height: 20%;
+  display: block;
+}
+.row a i {
+  font-size: 12px;
+  display: block;
+  line-height: 30px;
+  margin-top: 0px;
+}
+.tb_box {
+  background: #fff;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+.tb_box .tab_tit {
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #333;
+}
+.tb_box .tab_tit .more {
+  float: right;
+  font-size: 14px;
+  margin-top: 3px;
+  color: #6a91ee;
+  position: relative;
+  padding-right: 13px;
+}
+.tb_box .tab_tit .more:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-right: 1px solid #6a91ee;
+  border-bottom: 1px solid #6a91ee;
+  top: 50%;
+  right: 5px;
+  margin-top: -5px;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.tb_box .tb_type {
+  border-top: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+.tb_type .tb_pic {
+  width: 100%;
+  display: block;
+}
+.tb_type .th_link {
+  border-bottom: 1px solid #dadada;
+  border-width: 0 0 1px;
+  float: right;
+  width: 50%;
+}
+.tb_floor {
+  width: 50%;
+  float: left;
+  border-right: 1px solid #dadada;
+  margin-left: -1px;
+}
+.tb_type .tb_last {
+  border-bottom: none;
+}
+.tb_type_even .tb_floor {
+  float: right;
+  border-left: 1px solid #dadada;
+  border-right: none;
+}
+.tb_type_even .th_link {
+  float: left;
+}
+/* 第二页 */
+.page2 {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.page2 dl {
+  width: 100%;
+  height: 90px;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.page2 dl dt img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+.page2 dl dd {
+  font-size: 14px;
+}
+ul {
+  height: 30px;
+}
+.page3 {
+  width: 100%;
+  height: 100%;
+}
+.list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.white-bg {
+  background: #fff;
+}
+.gary-bg {
+  background: #eee;
+}
+.white-bg_2 {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  height: 45px;
+  background: #fff;
+}
+/**index页面的样式**/
+.homePage .banner {
+  width: 100%;
+  height: 100px;
+  background: #f00;
+}
